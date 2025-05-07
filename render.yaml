@@ -1,5 +1,1 @@
-services:
-  - type: web
-    name: my-botpress-bot
-    runtime: docker
-    plan: free  # ή "starter" ($7/μήνα για 10K+ chats/day)
+
