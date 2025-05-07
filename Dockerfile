@@ -1,3 +1,3 @@
 FROM botpress/server:latest
 EXPOSE 3000
-CMD ["botpress", "start"]
+CMD ["sh", "-c", "echo 'Starting Botpress...' && botpress start"]
