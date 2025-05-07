@@ -1,3 +1,3 @@
-FROM botpress/server:latest
+FROM botpress/server:v12_26_7
 EXPOSE 3000
-CMD ["sh", "-c", "echo 'Starting Botpress...' && botpress start"]
+CMD ["./bp"]
